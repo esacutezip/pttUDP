@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="My Setting"
+        android:key="mydevice">
+
+        <EditTextPreference
+            android:key="ipsender"
+            android:title="IP Sender"
+            android:summary="Masukan IP Sender"
+            android:dialogTitle="IP Sender"
+            android:dialogMessage="Masukan IP Sender"
+            android:defaultValue="192.168.66.39"
+            android:inputType="text"/>
+        <EditTextPreference
+            android:key="portsender"
+            android:title="Port Sender"
+            android:summary="Port Sender"
+            android:dialogTitle="Port Sender"
+            android:dialogMessage="Masukan Port Sender"
+            android:defaultValue="50005"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="portreceive"
+            android:title="Port Receive"
+            android:summary="Port Receive"
+            android:dialogTitle="Port Receive"
+            android:dialogMessage="Masukan Port Receive"
+            android:defaultValue="50004"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="portdata"
+            android:title="Port Data"
+            android:summary="Port Data"
+            android:dialogTitle="Port Data"
+            android:dialogMessage="Masukan Port Data"
+            android:defaultValue="50006"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="portdata2"
+            android:title="Port Data Receive"
+            android:summary="Port Data Receive"
+            android:dialogTitle="Port Data Receive"
+            android:dialogMessage="Masukan Port Data Receive"
+            android:defaultValue="50007"
+            android:inputType="number"/>
+        <EditTextPreference
+            android:key="frameplay"
+            android:title="Frame Play"
+            android:summary="Frame Pla"
+            android:dialogTitle="Frame Pla"
+            android:dialogMessage="Masukan Frame Pla"
+            android:defaultValue="20"
+            android:inputType="number"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
